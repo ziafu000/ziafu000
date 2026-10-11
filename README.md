@@ -16,41 +16,52 @@
   <img src="https://img.shields.io/badge/LOCATION-Vietnam_🇻🇳-000000?style=for-the-badge&logo=googlemaps&logoColor=ff4444" alt="Location" />
 </div>
 
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rectangles&color=00ff9d&height=3&section=header&reversal=false&text=&fontSize=0&animation=flashing" alt="Divider" />
-
-### 🧭 Navigation
-[⚡ About](#-architecture--philosophy) &nbsp;·&nbsp;
-[🧠 Ecosystem Flow](#-ecosystem-flow-architecture) &nbsp;·&nbsp;
-[🚀 Featured Systems](#-featured-deployments--systems) &nbsp;·&nbsp;
-[🛠️ Technical Stack](#️-technical-arsenal) &nbsp;·&nbsp;
-[📊 Telemetry](#-system-telemetry--commit-rhythm) &nbsp;·&nbsp;
-[🌐 Connect](#-establish-transmission)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rectangles&color=00d4ff&height=3&section=header&reversal=false&text=&fontSize=0&animation=flashing" alt="Divider" />
-
 </div>
 
-## ⚡ Architecture & Philosophy
+---
 
-```typescript
-const ziafu: SystemsArchitect = {
-  identity: "ZIAFU (Bill)",
-  domains: ["Autonomous Multi-Agent AI", "Generative Media Engines", "Financial Intelligence"],
-  core_thesis: "Engineering deterministic, verifiable software runtimes around probabilistic AI models.",
-  active_creations: {
-    flagship: "VideoGenEngine (Zero-cost cinema-grade generative video studio)",
-    live_platform: "https://athenastock.com (Mindful Investing & Valuation Intelligence)",
-    agent_fleet: "Firstmate Fleet (Supervisor harness for autonomous multi-repo execution)"
-  },
-  execution_rules: [
-    "Zero-Leak Security (pre-commit guards & secret interception)",
-    "Zero API Cost optimization (CDP browser-use, neural local TTS, demuxers)",
-    "Human-in-the-Loop visual review gates (Lavish Director's Board)"
-  ]
-};
-```
+## ⚡ Core Architecture & Engineering Pillars
+
+> *"Engineering deterministic, verifiable software runtimes around probabilistic AI models."*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Autonomous Agent Swarms
+- **Single-Contact Supervisor:** Coordinating multi-runtime worker crews (`Firstmate Fleet`) across isolated git worktrees.
+- **Strict Verification Gates:** Fail-closed test assertions, linting, and automated review before any code reaches production.
+- **Zero Hallucination:** Eliminating model drift through structured brief enforcement and task-bound lifecycle control.
+
+</td>
+<td width="50%" valign="top">
+
+### 🎬 Zero-Cost Generative Pipelines
+- **Headless Browser Engines:** Automating Google Flow (Omni 1.1 / Nano Banana Pro) via Chrome CDP with **0 recurring API cost**.
+- **Neural Speech Synthesis:** 48kHz offline voice production using VieNeu-TTS and zero-shot voice cloning with F5-TTS.
+- **Static Demuxer Assembly:** Sub-second video rendering via FFmpeg concat demuxers with 100% static cuts.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎨 Visual UI Layer (Human-in-the-Loop)
+- **Lavish Director's Board:** Interactive two-way visual gate between script generation and batch rendering.
+- **Single-Shot Iteration:** Real-time feedback loop allowing single-frame re-renders without re-running entire episodes.
+- **Contextual Pacing Matrix:** Dynamic pacing balancing 1.0s retention hooks with 3.0s technical infographics.
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ Zero-Leak Intellectual Property Guard
+- **Pre-Commit Security:** Automated Git hooks blocking Channel IDs, internal credentials, and proprietary code before commit.
+- **Engine Security Preflight:** Mandatory zero-leak doctor preflights (`./videogen doctor`) in local pipelines.
+- **Strict IP Isolation:** Proprietary financial models (AthenaStock) and internal video series kept 100% private.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -58,40 +69,36 @@ const ziafu: SystemsArchitect = {
 
 ```mermaid
 graph LR
-    subgraph ZIAFU["⚡ ZIAFU ARCHITECTURE CORE"]
-        Supervisor["🤖 Firstmate Fleet<br/>(Autonomous Supervisor)"]
-        Production["📈 AthenaStock.com<br/>(Financial Intelligence)"]
-        Studio["🎬 VideoGenEngine<br/>(Autonomous Media Studio)"]
+    subgraph Core["⚡ ZIAFU Architecture Core"]
+        Supervisor["🤖 Firstmate Fleet<br/>Autonomous Supervisor"]
+        Production["📈 AthenaStock.com<br/>Financial Intelligence"]
+        Studio["🎬 VideoGenEngine<br/>Autonomous Media Studio"]
     end
 
     subgraph VisualGate["🎨 Visual UI Layer"]
-        Lavish["Lavish Director's Board<br/>(Human-in-the-Loop Gate)"]
+        Lavish["Lavish Director Board<br/>Human-in-the-Loop Gate"]
     end
 
     subgraph Engines["⚙️ Generative Pipelines"]
-        Flow["Google Flow Omni 1.1<br/>(Nano Banana Pro)"]
-        TTS["VieNeu-TTS / F5-TTS<br/>(48kHz Neural Audio)"]
-        FFmpeg["FFmpeg Concat Demuxer<br/>(100% Static Hard Cuts)"]
+        Flow["Google Flow Omni 1.1<br/>Nano Banana Pro"]
+        TTS["VieNeu / F5-TTS<br/>48kHz Neural Audio"]
+        FFmpeg["FFmpeg Concat Demuxer<br/>100% Static Hard Cuts"]
     end
 
-    subgraph WebDelivery["🌐 Multi-Platform Deployment"]
-        Web["Production Web<br/>(React 19 / Next.js)"]
-        YouTube["YouTube Studio CDP<br/>(Automated Publishing)"]
+    subgraph WebDelivery["🌐 Multi-Platform Delivery"]
+        Web["Production Web<br/>React 19 / Next.js"]
+        YouTube["YouTube Studio CDP<br/>Automated Publishing"]
     end
 
     Supervisor --> Studio
     Studio --> VisualGate
-    VisualGate -->|Approved Storyboard| Flow
-    VisualGate -->|Approved Storyboard| TTS
-    Flow & TTS --> FFmpeg
+    VisualGate --> Flow
+    VisualGate --> TTS
+    Flow --> FFmpeg
+    TTS --> FFmpeg
     FFmpeg --> YouTube
     Supervisor --> Production
     Production --> Web
-
-    style ZIAFU fill:#161b22,stroke:#00ff9d,stroke-width:2px,color:#fff
-    style VisualGate fill:#161b22,stroke:#ffd700,stroke-width:2px,color:#fff
-    style Engines fill:#161b22,stroke:#00d4ff,stroke-width:2px,color:#fff
-    style WebDelivery fill:#161b22,stroke:#9d00ff,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -132,20 +139,16 @@ graph LR
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ziafu000&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="GitHub Trophies" />
-
-<br><br>
-
 <img src="https://github-readme-stats.vercel.app/api?username=ziafu000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22&title_color=00ff9d&icon_color=00d4ff&text_color=c9d1d9" alt="GitHub Stats" width="49%" />
 <img src="https://streak-stats.demolab.com/?user=ziafu000&theme=tokyonight&hide_border=true&border_radius=6&background=161b22&ring=00ff9d&fire=00d4ff&currStreakLabel=00ff9d" alt="Streak Stats" width="49%" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ziafu000&theme=tokyo-night&bg_color=161b22&color=00ff9d&line=00d4ff&point=ffd700&area=true&area_color=00ff9d&hide_border=true" width="100%" alt="Activity Graph" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ziafu000&theme=tokyonight&hide_border=true&bg_color=161b22&title_color=00ff9d&text_color=c9d1d9&layout=compact" alt="Top Languages" width="60%" />
 
 <br><br>
 
-### 🐍 Contribution Rhythm Animation
+### 🐍 Daily Contribution Snake Rhythm
 <img width="100%" src="https://raw.githubusercontent.com/ziafu000/ziafu000/output/github-contribution-grid-snake-dark.svg" alt="Daily Contribution Snake" />
 
 </div>

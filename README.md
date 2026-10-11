@@ -173,11 +173,11 @@ graph LR
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customGradientList=0,0,0,0|25,180,0,20,0.5|50,230,20,40,0.6|75,255,40,60,0.5|100,0,0,0,1&height=180&section=footer&reversal=true&text=Autonomous%20Execution%20%E2%80%A2%20Zero-Leak%20Security%20%E2%80%A2%20Ship%20Daily&fontSize=20&fontColor=ffffff&stroke=ff2233&strokeWidth=1&animation=blinking" alt="Footer Banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2500&pause=800&color=FF3344&center=true&vCenter=true&width=500&lines=ZIAFU+%E2%80%A2+Crafted+with+Autonomous+Systems;Vietnam+%F0%9F%87%BB%F0%9F%87%B3+%E2%80%A2+Pushing+code+to+production+24%2F7" alt="Footer Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=500&lines=ZIAFU+%E2%80%A2+Crafted+with+Autonomous+Systems;Vietnam+%F0%9F%87%BB%F0%9F%87%B3+%E2%80%A2+Pushing+code+to+production+24%2F7" alt="Footer Typing" />
 </a>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=ziafu000&label=SYSTEM+TELEMETRY+VIEWS&color=ff3344&style=for-the-badge&labelColor=000000" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=ziafu000&label=SYSTEM+TELEMETRY+VIEWS&color=38bdf8&style=for-the-badge" alt="Profile Views" />
 
 </div>

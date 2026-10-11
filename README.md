@@ -1,0 +1,175 @@
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customGradientList=0,0,0,0|25,0,255,157,0.5|50,0,212,255,0.5|75,157,0,255,0.5|100,0,0,0,1&height=280&section=header&text=ZIAFU&fontAlignY=32&fontSize=76&fontColor=ffffff&stroke=00ff9d&strokeWidth=1.5&animation=fadeIn&desc=AI%20SYSTEMS%20ARCHITECT%20%E2%80%A2%20AUTONOMOUS%20ENGINES%20%E2%80%A2%20VIETNAM&descAlignY=58&descSize=14&descColor=00d4ff&reversal=false" alt="ZIAFU Header" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2500&pause=800&color=00FF9D&center=true&vCenter=true&width=750&lines=Autonomous+Multi-Agent+Orchestration;Creator+of+VideoGenEngine+(Cinema-Grade+at+0+Cost);Founder+%26+Architect+of+AthenaStock.com;Production+Engineering+with+React+19+%26+Next.js;Building+Autonomous+AI+Systems+%E2%80%A2+Shipping+Daily" alt="Typing SVG" />
+</a>
+
+<br>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/ROLE-AI_Systems_Architect-000000?style=for-the-badge&logo=openai&logoColor=00ff9d" alt="Role" />
+  <img src="https://img.shields.io/badge/FLAGSHIP-VideoGenEngine-000000?style=for-the-badge&logo=youtube&logoColor=ff0000" alt="Flagship" />
+  <img src="https://img.shields.io/badge/PRODUCTION-AthenaStock.com-000000?style=for-the-badge&logo=googlechrome&logoColor=00d4ff" alt="Production" />
+  <img src="https://img.shields.io/badge/POSTURE-Ship_Daily-000000?style=for-the-badge&logo=githubactions&logoColor=ffd700" alt="Posture" />
+  <img src="https://img.shields.io/badge/LOCATION-Vietnam_🇻🇳-000000?style=for-the-badge&logo=googlemaps&logoColor=ff4444" alt="Location" />
+</div>
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rectangles&color=00ff9d&height=3&section=header&reversal=false&text=&fontSize=0&animation=flashing" alt="Divider" />
+
+### 🧭 Navigation
+[⚡ About](#-architecture--philosophy) &nbsp;·&nbsp;
+[🧠 Ecosystem Flow](#-ecosystem-flow-architecture) &nbsp;·&nbsp;
+[🚀 Featured Systems](#-featured-deployments--systems) &nbsp;·&nbsp;
+[🛠️ Technical Stack](#️-technical-arsenal) &nbsp;·&nbsp;
+[📊 Telemetry](#-system-telemetry--commit-rhythm) &nbsp;·&nbsp;
+[🌐 Connect](#-establish-transmission)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rectangles&color=00d4ff&height=3&section=header&reversal=false&text=&fontSize=0&animation=flashing" alt="Divider" />
+
+</div>
+
+## ⚡ Architecture & Philosophy
+
+```typescript
+const ziafu: SystemsArchitect = {
+  identity: "ZIAFU (Bill)",
+  domains: ["Autonomous Multi-Agent AI", "Generative Media Engines", "Financial Intelligence"],
+  core_thesis: "Engineering deterministic, verifiable software runtimes around probabilistic AI models.",
+  active_creations: {
+    flagship: "VideoGenEngine (Zero-cost cinema-grade generative video studio)",
+    live_platform: "https://athenastock.com (Mindful Investing & Valuation Intelligence)",
+    agent_fleet: "Firstmate Fleet (Supervisor harness for autonomous multi-repo execution)"
+  },
+  execution_rules: [
+    "Zero-Leak Security (pre-commit guards & secret interception)",
+    "Zero API Cost optimization (CDP browser-use, neural local TTS, demuxers)",
+    "Human-in-the-Loop visual review gates (Lavish Director's Board)"
+  ]
+};
+```
+
+---
+
+## 🧠 Ecosystem Flow Architecture
+
+```mermaid
+graph LR
+    subgraph ZIAFU["⚡ ZIAFU ARCHITECTURE CORE"]
+        Supervisor["🤖 Firstmate Fleet<br/>(Autonomous Supervisor)"]
+        Production["📈 AthenaStock.com<br/>(Financial Intelligence)"]
+        Studio["🎬 VideoGenEngine<br/>(Autonomous Media Studio)"]
+    end
+
+    subgraph VisualGate["🎨 Visual UI Layer"]
+        Lavish["Lavish Director's Board<br/>(Human-in-the-Loop Gate)"]
+    end
+
+    subgraph Engines["⚙️ Generative Pipelines"]
+        Flow["Google Flow Omni 1.1<br/>(Nano Banana Pro)"]
+        TTS["VieNeu-TTS / F5-TTS<br/>(48kHz Neural Audio)"]
+        FFmpeg["FFmpeg Concat Demuxer<br/>(100% Static Hard Cuts)"]
+    end
+
+    subgraph WebDelivery["🌐 Multi-Platform Deployment"]
+        Web["Production Web<br/>(React 19 / Next.js)"]
+        YouTube["YouTube Studio CDP<br/>(Automated Publishing)"]
+    end
+
+    Supervisor --> Studio
+    Studio --> VisualGate
+    VisualGate -->|Approved Storyboard| Flow
+    VisualGate -->|Approved Storyboard| TTS
+    Flow & TTS --> FFmpeg
+    FFmpeg --> YouTube
+    Supervisor --> Production
+    Production --> Web
+
+    style ZIAFU fill:#161b22,stroke:#00ff9d,stroke-width:2px,color:#fff
+    style VisualGate fill:#161b22,stroke:#ffd700,stroke-width:2px,color:#fff
+    style Engines fill:#161b22,stroke:#00d4ff,stroke-width:2px,color:#fff
+    style WebDelivery fill:#161b22,stroke:#9d00ff,stroke-width:2px,color:#fff
+```
+
+---
+
+## 🚀 Featured Deployments & Systems
+
+| System | Classification | Architecture & Key Capabilities | Runtime | Link |
+|---|---|---|---|---|
+| 🎬 **VideoGenEngine** | ![Flagship](https://img.shields.io/badge/Flagship-Open_Source-00ff9d?style=flat-square) | Autonomous generative video production engine. Produces documentary shorts & minimalist explainers with **0 API cost**, Lavish Director's Board (Visual UI Layer), multi-tier contextual pacing, Chrome CDP bridge, and anti-voice doubling. | `Node.js · CLI · Daemon` | [**Explore Code ↗**](https://github.com/ziafu000/VideoGenEngine) |
+| 📈 **AthenaStock.com** | ![Production](https://img.shields.io/badge/Production-Live_Web-00d4ff?style=flat-square) | Mindful Investing & Stock Market Valuation platform. Built for long-term compound growth, high-conviction DCF analysis, real-time financial telemetry, and noise-free portfolio management. | `Next.js · React 19 · Cloud` | [**Visit athenastock.com ↗**](https://athenastock.com) |
+| 🤖 **Firstmate Fleet** | ![Supervisor](https://img.shields.io/badge/Supervisor-Autonomous-ffd700?style=flat-square) | Autonomous multi-agent software engineering supervisor. Coordinates isolated worker crews across multi-repo environments with zero hallucination gates and fail-closed security. | `Agent Harness` | [**Explore Fleet ↗**](https://github.com/ziafu000/firstmate) |
+| 🏎️ **Jetracer AI** | ![Robotics](https://img.shields.io/badge/Robotics-Embedded-9d00ff?style=flat-square) | Autonomous racing car control powered by deep convolutional neural networks, TensorRT acceleration, and computer vision navigation on embedded Linux. | `Python · PyTorch · Linux` | [**Explore Repo ↗**](https://github.com/ziafu000/Jetracer) |
+
+---
+
+## 🛠️ Technical Arsenal
+
+<div align="center">
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=typescript,js,nextjs,react,nodejs,python,c,cpp,tailwind,docker,linux,githubactions,bash,pytorch,tensorflow,git&theme=dark&perline=8" alt="Skill Icons" />
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Google_Flow-Omni_1.1_Veo-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Flow" />
+<img src="https://img.shields.io/badge/VieNeu--TTS-48kHz_Neural-00ff9d?style=flat-square" alt="VieNeu" />
+<img src="https://img.shields.io/badge/F5--TTS-Zero_Shot_Voice-ffd700?style=flat-square" alt="F5-TTS" />
+<img src="https://img.shields.io/badge/Chrome_CDP-DevTools_Protocol-00d4ff?style=flat-square&logo=googlechrome&logoColor=white" alt="CDP" />
+<img src="https://img.shields.io/badge/FFmpeg-Concat_Demuxer-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+<img src="https://img.shields.io/badge/Lavish--Axi-Visual_UI_Layer-ff007f?style=flat-square" alt="Lavish" />
+
+</div>
+
+---
+
+## 📊 System Telemetry & Commit Rhythm
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=ziafu000&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=8" alt="GitHub Trophies" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=ziafu000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=161b22&title_color=00ff9d&icon_color=00d4ff&text_color=c9d1d9" alt="GitHub Stats" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=ziafu000&theme=tokyonight&hide_border=true&border_radius=6&background=161b22&ring=00ff9d&fire=00d4ff&currStreakLabel=00ff9d" alt="Streak Stats" width="49%" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ziafu000&theme=tokyo-night&bg_color=161b22&color=00ff9d&line=00d4ff&point=ffd700&area=true&area_color=00ff9d&hide_border=true" width="100%" alt="Activity Graph" />
+
+<br><br>
+
+### 🐍 Contribution Rhythm Animation
+<img width="100%" src="https://raw.githubusercontent.com/ziafu000/ziafu000/output/github-contribution-grid-snake-dark.svg" alt="Daily Contribution Snake" />
+
+</div>
+
+---
+
+## 🌐 Establish Transmission
+
+<div align="center">
+
+[![AthenaStock](https://img.shields.io/badge/PLATFORM-athenastock.com-000000?style=for-the-badge&logo=googlechrome&logoColor=00d4ff)](https://athenastock.com)
+[![Email](https://img.shields.io/badge/EMAIL-nguyengiaphuhcm%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:nguyengiaphuhcm@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-ziafu000-000000?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/ziafu000)
+
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customGradientList=0,0,0,0|25,157,0,255,0.5|50,0,212,255,0.5|75,0,255,157,0.5|100,0,0,0,1&height=180&section=footer&reversal=true&text=Autonomous%20Execution%20%E2%80%A2%20Zero-Leak%20Security%20%E2%80%A2%20Ship%20Daily&fontSize=20&fontColor=ffffff&stroke=00ff9d&strokeWidth=1&animation=blinking" alt="Footer Banner" />
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2500&pause=800&color=00FF9D&center=true&vCenter=true&width=500&lines=ZIAFU+%E2%80%A2+Crafted+with+Autonomous+Systems;Vietnam+%F0%9F%87%BB%F0%9F%87%B3+%E2%80%A2+Pushing+code+to+production+24%2F7" alt="Footer Typing" />
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=ziafu000&label=SYSTEM+TELEMETRY+VIEWS&color=00ff9d&style=for-the-badge&labelColor=000000" alt="Profile Views" />
+
+</div>

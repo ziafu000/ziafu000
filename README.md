@@ -154,7 +154,7 @@ graph LR
 <br><br>
 
 ### 🐍 Daily Contribution Snake Rhythm
-<img width="100%" src="https://raw.githubusercontent.com/ziafu000/ziafu000/output/github-contribution-grid-snake-dark.svg" alt="Daily Contribution Snake" />
+<img width="100%" src="https://raw.githubusercontent.com/ziafu000/ziafu000/output/github-contribution-grid-snake-dark.svg?v=468" alt="Daily Contribution Snake" />
 
 </div>
 

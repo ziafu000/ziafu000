@@ -145,7 +145,7 @@ graph LR
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=ziafu000&show_icons=true&hide_border=true&bg_color=161b22&title_color=58a6ff&icon_color=39d353&text_color=c9d1d9" alt="GitHub Stats" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=ziafu000&hide_border=true&border_radius=6&background=161b22&ring=ffd700&fire=ff8800&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="Streak Stats" width="49%" />
+<img src="https://streak-stats.demolab.com/?user=ziafu000&hide_border=true&border_radius=6&background=161b22&ring=ffd700&fire=ff8800&currStreakLabel=58a6ff&currStreakNum=ffd700&sideNums=ffffff&sideLabels=c9d1d9&dates=8b949e" alt="Streak Stats" width="49%" />
 
 <br><br>
 
